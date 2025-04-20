@@ -4,7 +4,13 @@ A simple Telegram bot that reads temperature and humidity data from an AHT25 sen
 
 ## Overview
 
-This project allows you to remotely monitor the temperature and humidity readings from an AHT25 sensor using the convenience of a Telegram bot. You can request the current sensor readings on demand or potentially configure periodic updates or alerts (depending on implementation).
+This project allows you to remotely monitor the temperature and humidity readings from an AHT25 sensor using the convenience of a Telegram bot. You can request the current sensor readings on demand or potentially configure periodic updates or alerts (depending on implementation). You can view the temperature and humidity on mini oled display. There is 4 mode on oled mini display. Sequently temperature ,humidity, temperature graphics(last 60sec) , humidity // ..  and lastly my name 😊.
+
+What used in this project?
+- Button
+- Esp32
+- Mini OLED Display
+- AHT25 Temperature and Humidity Sensor
 
 ## Features
 
